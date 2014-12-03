@@ -1,0 +1,24 @@
+{
+    "name": "phprest/phrest-service-request-filter",
+    "description": "Phrest Request Filter Service.",
+    "keywords": ["micro", "framework", "rest", "restful", "api", "service", "filter"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Balogh",
+            "email": "baloghbh@gmail.com",
+            "homepage": "http://code-chronicle.blogspot.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phprest/phrest": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phrest\\Service\\RequestFilter\\": "src"
+        }
+    }
+}
