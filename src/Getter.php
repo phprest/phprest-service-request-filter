@@ -5,7 +5,7 @@ trait Getter
     /**
      * @return RequestFilter
      */
-    public function serviceRequestFilter()
+    protected function serviceRequestFilter()
     {
         return $this->getContainer()->get(Config::getServiceName());
     }
