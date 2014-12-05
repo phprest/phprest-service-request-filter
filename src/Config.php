@@ -1,6 +1,6 @@
 <?php namespace Phrest\Service\RequestFilter;
 
-use Phrest\Service\Contract\Configurable;
+use Phrest\Service\Configurable;
 use Phrest\Service\RequestFilter\Contract\ObtainStrategy;
 use Phrest\Service\RequestFilter\Contract\Query;
 use Phrest\Service\RequestFilter\Contract\Sort;
