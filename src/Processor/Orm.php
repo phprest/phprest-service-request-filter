@@ -8,7 +8,7 @@ use Phprest\Service\RequestFilter\Contract\Limit\ProcessStrategy as LimitProcess
 use Phprest\Service\RequestFilter\DataStructure;
 use Phprest\Service\RequestFilter\DataStructure\Query\Expression;
 
-class Rdbms implements QueryProcessStrategy, SortProcessStrategy, OffsetProcessStrategy, LimitProcessStrategy
+class Orm implements QueryProcessStrategy, SortProcessStrategy, OffsetProcessStrategy, LimitProcessStrategy
 {
     /**
      * @var Criteria
