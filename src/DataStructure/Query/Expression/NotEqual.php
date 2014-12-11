@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\DataStructure\Query\Expression;
+<?php namespace Phprest\Service\RequestFilter\DataStructure\Query\Expression;
 
-use Phrest\Service\RequestFilter\DataStructure\Query\Expression;
+use Phprest\Service\RequestFilter\DataStructure\Query\Expression;
 
 final class NotEqual extends Expression
 {

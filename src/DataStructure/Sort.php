@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\DataStructure;
+<?php namespace Phprest\Service\RequestFilter\DataStructure;
 
-use Phrest\Service\RequestFilter\DataStructure\Sort\Entity;
+use Phprest\Service\RequestFilter\DataStructure\Sort\Entity;
 
 final class Sort implements \Iterator
 {

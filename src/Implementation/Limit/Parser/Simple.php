@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Limit\Parser;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Limit\Parser;
 
-use Phrest\Service\RequestFilter\Contract\Limit\ParseStrategy;
+use Phprest\Service\RequestFilter\Contract\Limit\ParseStrategy;
 
 class Simple implements ParseStrategy
 {

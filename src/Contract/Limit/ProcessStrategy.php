@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\RequestFilter\Contract\Limit;
+<?php namespace Phprest\Service\RequestFilter\Contract\Limit;
 
 interface ProcessStrategy
 {

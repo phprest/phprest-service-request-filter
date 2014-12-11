@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\RequestFilter\DataStructure\Sort;
+<?php namespace Phprest\Service\RequestFilter\DataStructure\Sort;
 
 abstract class Entity
 {

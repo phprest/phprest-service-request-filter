@@ -1,7 +1,7 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Sort\Parser;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Sort\Parser;
 
-use Phrest\Service\RequestFilter\Contract\Sort\ParseStrategy;
-use Phrest\Service\RequestFilter\DataStructure\Sort;
+use Phprest\Service\RequestFilter\Contract\Sort\ParseStrategy;
+use Phprest\Service\RequestFilter\DataStructure\Sort;
 
 class PipeMinus implements ParseStrategy
 {

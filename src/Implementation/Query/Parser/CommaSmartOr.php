@@ -1,7 +1,7 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Query\Parser;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Query\Parser;
 
-use Phrest\Service\RequestFilter\DataStructure\OrQuery;
-use Phrest\Service\RequestFilter\DataStructure\Query\Query;
+use Phprest\Service\RequestFilter\DataStructure\OrQuery;
+use Phprest\Service\RequestFilter\DataStructure\Query\Query;
 
 class CommaSmartOr extends CommaSmartAnd
 {

@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\RequestFilter;
+<?php namespace Phprest\Service\RequestFilter;
 
 use Symfony\Component\HttpFoundation\Request;
 

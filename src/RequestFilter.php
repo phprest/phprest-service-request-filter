@@ -1,10 +1,10 @@
-<?php namespace Phrest\Service\RequestFilter;
+<?php namespace Phprest\Service\RequestFilter;
 
-use Phrest\Service\RequestFilter\Contract\ObtainStrategy;
-use Phrest\Service\RequestFilter\Contract\Query;
-use Phrest\Service\RequestFilter\Contract\Sort;
-use Phrest\Service\RequestFilter\Contract\Offset;
-use Phrest\Service\RequestFilter\Contract\Limit;
+use Phprest\Service\RequestFilter\Contract\ObtainStrategy;
+use Phprest\Service\RequestFilter\Contract\Query;
+use Phprest\Service\RequestFilter\Contract\Sort;
+use Phprest\Service\RequestFilter\Contract\Offset;
+use Phprest\Service\RequestFilter\Contract\Limit;
 use Symfony\Component\HttpFoundation\Request;
 
 class RequestFilter

@@ -1,19 +1,19 @@
-<?php namespace Phrest\Service\RequestFilter;
+<?php namespace Phprest\Service\RequestFilter;
 
-use Phrest\Service\Configurable;
-use Phrest\Service\RequestFilter\Contract\ObtainStrategy;
-use Phrest\Service\RequestFilter\Contract\Query;
-use Phrest\Service\RequestFilter\Contract\Sort;
-use Phrest\Service\RequestFilter\Contract\Offset;
-use Phrest\Service\RequestFilter\Contract\Limit;
-use Phrest\Service\RequestFilter\Implementation\Query\Obtainer\QueryInHeaderOrQuery;
-use Phrest\Service\RequestFilter\Implementation\Query\Parser\CommaSmartAnd;
-use Phrest\Service\RequestFilter\Implementation\Sort\Obtainer\SortInHeaderOrQuery;
-use Phrest\Service\RequestFilter\Implementation\Sort\Parser\CommaMinus;
-use Phrest\Service\RequestFilter\Implementation\Offset\Parser\Simple as OffsetSimple;
-use Phrest\Service\RequestFilter\Implementation\Offset\Obtainer\OffsetInHeaderOrQuery;
-use Phrest\Service\RequestFilter\Implementation\Limit\Obtainer\LimitInHeaderOrQuery;
-use Phrest\Service\RequestFilter\Implementation\Limit\Parser\Simple as LimitSimple;
+use Phprest\Service\Configurable;
+use Phprest\Service\RequestFilter\Contract\ObtainStrategy;
+use Phprest\Service\RequestFilter\Contract\Query;
+use Phprest\Service\RequestFilter\Contract\Sort;
+use Phprest\Service\RequestFilter\Contract\Offset;
+use Phprest\Service\RequestFilter\Contract\Limit;
+use Phprest\Service\RequestFilter\Implementation\Query\Obtainer\QueryInHeaderOrQuery;
+use Phprest\Service\RequestFilter\Implementation\Query\Parser\CommaSmartAnd;
+use Phprest\Service\RequestFilter\Implementation\Sort\Obtainer\SortInHeaderOrQuery;
+use Phprest\Service\RequestFilter\Implementation\Sort\Parser\CommaMinus;
+use Phprest\Service\RequestFilter\Implementation\Offset\Parser\Simple as OffsetSimple;
+use Phprest\Service\RequestFilter\Implementation\Offset\Obtainer\OffsetInHeaderOrQuery;
+use Phprest\Service\RequestFilter\Implementation\Limit\Obtainer\LimitInHeaderOrQuery;
+use Phprest\Service\RequestFilter\Implementation\Limit\Parser\Simple as LimitSimple;
 
 class Config implements Configurable
 {

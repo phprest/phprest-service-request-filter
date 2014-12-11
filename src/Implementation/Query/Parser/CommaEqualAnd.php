@@ -1,9 +1,9 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Query\Parser;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Query\Parser;
 
-use Phrest\Service\RequestFilter\Contract\Query\ParseStrategy;
-use Phrest\Service\RequestFilter\DataStructure\AndQuery;
-use Phrest\Service\RequestFilter\DataStructure\Query\Expression\Equal;
-use Phrest\Service\RequestFilter\DataStructure\Query\Query;
+use Phprest\Service\RequestFilter\Contract\Query\ParseStrategy;
+use Phprest\Service\RequestFilter\DataStructure\AndQuery;
+use Phprest\Service\RequestFilter\DataStructure\Query\Expression\Equal;
+use Phprest\Service\RequestFilter\DataStructure\Query\Query;
 
 class CommaEqualAnd implements ParseStrategy
 {

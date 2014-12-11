@@ -1,7 +1,7 @@
 {
-    "name": "phprest/phrest-service-request-filter",
-    "description": "Phrest Request Filter Service.",
-    "keywords": ["micro", "framework", "rest", "restful", "api", "service", "filter"],
+    "name": "phprest/phprest-service-request-filter",
+    "description": "Phprest Request Filter Service.",
+    "keywords": ["framework", "rest", "restful", "api", "service", "filter"],
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -14,11 +14,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "phprest/phrest": "dev-master"
+        "phprest/phprest": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Phrest\\Service\\RequestFilter\\": "src"
+            "Phprest\\Service\\RequestFilter\\": "src"
         }
     }
 }

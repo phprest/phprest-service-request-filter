@@ -1,7 +1,7 @@
-<?php namespace Phrest\Service\RequestFilter;
+<?php namespace Phprest\Service\RequestFilter;
 
-use Phrest\Service\Serviceable;
-use Phrest\Service\Configurable;
+use Phprest\Service\Serviceable;
+use Phprest\Service\Configurable;
 use Orno\Di\Container;
 
 class Service implements Serviceable

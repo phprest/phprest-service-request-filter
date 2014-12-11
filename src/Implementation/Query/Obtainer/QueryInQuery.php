@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Query\Obtainer;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Query\Obtainer;
 
-use Phrest\Service\RequestFilter\Contract\ObtainStrategy;
+use Phprest\Service\RequestFilter\Contract\ObtainStrategy;
 use Symfony\Component\HttpFoundation\Request;
 
 class QueryInQuery implements ObtainStrategy

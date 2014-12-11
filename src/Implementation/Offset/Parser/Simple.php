@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Offset\Parser;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Offset\Parser;
 
-use Phrest\Service\RequestFilter\Contract\Offset\ParseStrategy;
+use Phprest\Service\RequestFilter\Contract\Offset\ParseStrategy;
 
 class Simple implements ParseStrategy
 {

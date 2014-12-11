@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\Implementation\Sort\Obtainer;
+<?php namespace Phprest\Service\RequestFilter\Implementation\Sort\Obtainer;
 
-use Phrest\Service\RequestFilter\Contract\ObtainStrategy;
+use Phprest\Service\RequestFilter\Contract\ObtainStrategy;
 use Symfony\Component\HttpFoundation\Request;
 
 class SortInQuery implements ObtainStrategy

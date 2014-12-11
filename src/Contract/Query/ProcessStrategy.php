@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\Contract\Query;
+<?php namespace Phprest\Service\RequestFilter\Contract\Query;
 
-use Phrest\Service\RequestFilter\DataStructure\Query\Query;
+use Phprest\Service\RequestFilter\DataStructure\Query\Query;
 
 interface ProcessStrategy
 {

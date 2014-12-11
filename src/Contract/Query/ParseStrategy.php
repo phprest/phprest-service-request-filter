@@ -1,11 +1,11 @@
-<?php namespace Phrest\Service\RequestFilter\Contract\Query;
+<?php namespace Phprest\Service\RequestFilter\Contract\Query;
 
 interface ParseStrategy
 {
     /**
      * @param string $input
      *
-     * @return \Phrest\Service\RequestFilter\DataStructure\Query\Query
+     * @return \Phprest\Service\RequestFilter\DataStructure\Query\Query
      */
     public function parse($input);
 }

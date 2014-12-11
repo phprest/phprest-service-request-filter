@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\RequestFilter\DataStructure\Query;
+<?php namespace Phprest\Service\RequestFilter\DataStructure\Query;
 
 abstract class Query implements \Iterator
 {

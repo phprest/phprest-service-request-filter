@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\RequestFilter\Contract\Sort;
+<?php namespace Phprest\Service\RequestFilter\Contract\Sort;
 
-use Phrest\Service\RequestFilter\DataStructure\Sort;
+use Phprest\Service\RequestFilter\DataStructure\Sort;
 
 interface ProcessStrategy
 {

@@ -1,12 +1,12 @@
-<?php namespace Phrest\Service\RequestFilter\Processor;
+<?php namespace Phprest\Service\RequestFilter\Processor;
 
 use Doctrine\Common\Collections\Criteria;
-use Phrest\Service\RequestFilter\Contract\Query\ProcessStrategy as QueryProcessStrategy;
-use Phrest\Service\RequestFilter\Contract\Sort\ProcessStrategy as SortProcessStrategy;
-use Phrest\Service\RequestFilter\Contract\Offset\ProcessStrategy as OffsetProcessStrategy;
-use Phrest\Service\RequestFilter\Contract\Limit\ProcessStrategy as LimitProcessStrategy;
-use Phrest\Service\RequestFilter\DataStructure;
-use Phrest\Service\RequestFilter\DataStructure\Query\Expression;
+use Phprest\Service\RequestFilter\Contract\Query\ProcessStrategy as QueryProcessStrategy;
+use Phprest\Service\RequestFilter\Contract\Sort\ProcessStrategy as SortProcessStrategy;
+use Phprest\Service\RequestFilter\Contract\Offset\ProcessStrategy as OffsetProcessStrategy;
+use Phprest\Service\RequestFilter\Contract\Limit\ProcessStrategy as LimitProcessStrategy;
+use Phprest\Service\RequestFilter\DataStructure;
+use Phprest\Service\RequestFilter\DataStructure\Query\Expression;
 
 class Rdbms implements QueryProcessStrategy, SortProcessStrategy, OffsetProcessStrategy, LimitProcessStrategy
 {

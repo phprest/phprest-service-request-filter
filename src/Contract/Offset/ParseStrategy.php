@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\RequestFilter\Contract\Offset;
+<?php namespace Phprest\Service\RequestFilter\Contract\Offset;
 
 interface ParseStrategy
 {
