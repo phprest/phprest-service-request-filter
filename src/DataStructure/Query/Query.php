@@ -5,12 +5,12 @@ abstract class Query implements \Iterator
     /**
      * @var integer
      */
-    private $position;
+    protected $position;
 
     /**
      * @var array of Expressions
      */
-    private $expressions = [];
+    protected $expressions = [];
 
 
     public function __construct()
