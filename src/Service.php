@@ -20,6 +20,6 @@ class Service implements Serviceable
 
         $requestFilter = new RequestFilter($config);
 
-        $container->singleton($config->getServiceName(), $requestFilter);
+        $container->add($config->getServiceName(), $requestFilter);
     }
 }
