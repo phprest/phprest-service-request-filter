@@ -19,7 +19,7 @@ trait Util
     }
 
     /**
-     * @return \League\Container\Container
+     * @return \League\Container\ContainerInterface
      */
     abstract protected function getContainer();
 }

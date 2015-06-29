@@ -12,7 +12,7 @@ trait Getter
     /**
      * Returns the DI container
      *
-     * @return \League\Container\Container
+     * @return \League\Container\ContainerInterface
      */
     abstract protected function getContainer();
 }
